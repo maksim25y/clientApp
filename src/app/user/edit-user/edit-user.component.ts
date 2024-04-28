@@ -17,8 +17,7 @@ export class EditUserComponent implements OnInit {
   constructor(private dialogRef: MatDialogRef<EditUserComponent>,
               private fb: FormBuilder,
               private notificationService: NotificationService,
-              //@ts-ignore
-              @Inject(MAT_DIALOG_DATA) public data,
+              @Inject(MAT_DIALOG_DATA) public data:any,
               private userService: UserService) {
   }
 

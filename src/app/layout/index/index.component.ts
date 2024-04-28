@@ -87,7 +87,7 @@ export class IndexComponent implements OnInit {
     const post = this.posts[postIndex];
 
     console.log(post);
-    this.commentService.addCommentToPost(postId, message)
+    this.commentService.addToCommentToPost(postId, message)
       .subscribe(data => {
         console.log(data);
         post.comments.push(data);
