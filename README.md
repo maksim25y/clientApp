@@ -25,5 +25,14 @@
 
 ![image](https://github.com/maksim25y/ShopApp/assets/131711956/009d060a-76b4-40a3-8e43-e17229d6b620)
 
+При переходе по адресу /main появляются все записи, вы можете поставить лайк, убрать лайк, оставить комментарий:
+
+![image](https://github.com/maksim25y/clientApp/assets/131711956/5f07ed26-7cd3-4302-928b-804cc30e8c70)
+
+Запись после лайк и комментария:
+![image](https://github.com/maksim25y/clientApp/assets/131711956/46c4b633-325c-41ca-9ee0-93cb48fb0ecd)
+
+
+
 
 </details>
