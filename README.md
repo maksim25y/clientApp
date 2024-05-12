@@ -34,7 +34,36 @@
 Запись после лайк и комментария:
 ![image](https://github.com/maksim25y/clientApp/assets/131711956/46c4b633-325c-41ca-9ee0-93cb48fb0ecd)
 
+</details>
 
+</details>
+<details><summary>Запуск</summary>
+Для того, чтобы запустить необходимо проделать следующие шаги на Windows, установите [Git Bash](https://git-scm.com/)
 
+1. Склонируйте репозиторий
 
+```shell
+git clone git@github.com:maksim25y/clientApp.git
+```
+
+2. Скачайте и установите Docker
+
+Скачать и найти инструкцию по установке вы можете на официальном сайте [Docker](https://www.docker.com)
+
+3. Запустите сайт в Docker
+
+Для этого откройте терминал и перейдите в папку репозитория
+
+```shell
+cd clientApp
+```
+
+Далее введите команду
+
+```shell
+docker-compose up --build
+```
+Готово! Клиент запущен.
+
+Чтобы остановить работу контейнеров, в терминале, откуда вы запускали docker-compose нажмите Ctrl+C (Control + C для Mac)
 </details>
