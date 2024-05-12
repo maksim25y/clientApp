@@ -65,7 +65,7 @@ docker-compose up --build
 ```
 Готово! Клиент запущен.
 
-Перейдите по адресу: localhost:4200
+Перейдите по адресу: localhost:4201
 
 Чтобы остановить работу контейнеров, в терминале, откуда вы запускали docker-compose нажмите Ctrl+C (Control + C для Mac)
 </details>
