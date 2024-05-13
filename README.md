@@ -66,6 +66,7 @@ docker-compose up --build
 Готово! Клиент запущен.
 
 Перейдите по адресу: localhost:4201
+
 Далее переходите к запуску api, если ещё не запустили: https://github.com/maksim25y/InstagramApp
 
 Чтобы остановить работу контейнеров, в терминале, откуда вы запускали docker-compose нажмите Ctrl+C (Control + C для Mac)
