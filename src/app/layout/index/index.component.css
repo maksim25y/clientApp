@@ -12,9 +12,9 @@
 }
 
 .is-liked {
-  color: darkred;
+  color: red !important;
 }
 
 .not-liked {
-  color: grey;
+  color: gray !important;
 }
