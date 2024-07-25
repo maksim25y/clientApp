@@ -23,7 +23,7 @@
 
     <mat-form-field class="w-100">
       <mat-label>Leave a comment...</mat-label>
-      <input  (keyup.enter)="postComment($any($event.target).value, post.id, i)" matInput #message maxlength="128">
+      <input  [(ngModel)]="commentText" (keyup.enter)="postComment($any($event.target).value, post.id, i)" matInput #message maxlength="128">
       <mat-hint align="end">{{message.value.length}} / 128</mat-hint>
     </mat-form-field>
 

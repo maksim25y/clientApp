@@ -18,6 +18,7 @@ export class IndexComponent implements OnInit {
   posts: Post[];
   isUserDataLoaded = false;
   user: User;
+  commentText: string;
 
   constructor(private postService: PostService,
     private userService: UserService,
@@ -92,6 +93,7 @@ export class IndexComponent implements OnInit {
         console.log(data);
         post.comments.push(data);
       });
+    this.commentText = ''
   }
 
   formatImage(img: any): any {
