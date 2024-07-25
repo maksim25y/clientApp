@@ -6,7 +6,7 @@
       <mat-card-subtitle>{{post.location}}</mat-card-subtitle>
     </mat-card-header>
     <img mat-card-image [src]="formatImage(post.image)" alt="post image">
-    <mat-card-subtitle align="start">Posted by {{post.username}}</mat-card-subtitle>
+    <mat-card-subtitle align="start">Опубликовано: {{post.username}}</mat-card-subtitle>
     <mat-card-content>
       <p>{{post.caption}}</p>
     </mat-card-content>
@@ -14,7 +14,7 @@
     <mat-card-actions align="start">
 
       <button *ngIf="isUserDataLoaded" mat-button (click)="likePost(post.id, i)" [ngClass]="post.usersLiked.indexOf(user.username) !== -1 ? 'is-liked' : 'not-liked'">
-        <mat-icon>favorite</mat-icon> Like</button>
+        <mat-icon>favorite</mat-icon> Мне нравится</button>
     </mat-card-actions>
 
     <div style="text-align: left">
@@ -22,7 +22,7 @@
     </div>
 
     <mat-form-field class="w-100">
-      <mat-label>Leave a comment...</mat-label>
+      <mat-label>Оставить комментарий...</mat-label>
       <input  [(ngModel)]="commentText" (keyup.enter)="postComment($any($event.target).value, post.id, i)" matInput #message maxlength="128">
       <mat-hint align="end">{{message.value.length}} / 128</mat-hint>
     </mat-form-field>
