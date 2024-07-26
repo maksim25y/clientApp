@@ -1,18 +1,18 @@
 <div>
-  <h2>Edit User Profile</h2>
+  <h2>Изменить профиль</h2>
   <form [formGroup]="profileEditForm">
     <mat-form-field class="w-100" appearance="outline">
-      <mat-label>First name</mat-label>
+        <mat-label>Имя</mat-label>
       <input matInput
              formControlName="firstName">
     </mat-form-field>
     <mat-form-field class="w-100" appearance="outline">
-      <mat-label>Last name</mat-label>
+      <mat-label>Фамилия</mat-label>
       <input matInput
              formControlName="lastName">
     </mat-form-field>
     <mat-form-field class="w-100" appearance="outline">
-      <mat-label>Biography</mat-label>
+      <mat-label>Описание</mat-label>
       <input matInput
              formControlName="bio">
     </mat-form-field>
@@ -20,10 +20,10 @@
     <div class="row">
       <button (click)="closeDialog()" class="w-50"
               mat-button mat-dialog-close disableRipple>
-        Cancel
+        Отмена
       </button>
       <button color="primary" class="w-50" [disabled]="profileEditForm.invalid" (click)="submit()" mat-button disableRipple>
-        Update
+        Обновить
       </button>
     </div>
   </form>

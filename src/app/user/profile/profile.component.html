@@ -1,8 +1,8 @@
 <div *ngIf="isUserDataLoaded" class="user-profile">
 
-  <h1>Profile</h1>
+  <h1>Профиль</h1>
   <div style="text-align: right">
-    <button mat-flat-button color="primary" (click)="openEditDialog()">Edit Info</button>
+    <button mat-flat-button color="primary" (click)="openEditDialog()">Редактировать</button>
   </div>
 
   <div style="padding-top: 2rem" class="row">
@@ -14,8 +14,8 @@
              #fileInput
              (change)="onFileSelected($event)">
 
-      <button mat-button (click)="fileInput.click()">Pick File</button>
-      <button mat-button *ngIf="selectedFile" (click)="onUpload()">Upload</button>
+      <button mat-button (click)="fileInput.click()">Загрузить</button>
+      <button mat-button *ngIf="selectedFile" (click)="onUpload()">Обновить</button>
     </div>
     <div class="col" style="text-align: left">
 
